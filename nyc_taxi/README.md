@@ -38,8 +38,40 @@ format (i.e., Parquet)
   * Ability to re-run failed pipelines
   * Ability to set-up alerts on failures
 
+
+## Data Overview
+
+A star schema is a multi-dimensional data model used to organize data in this project
+
+<p>
+ <img src="files_overview.png" width="500" height="200"/ >
+<p>
+
 ## Solution Architecture – Serverless SQL Pool
 
 <p>
- <img src="data_banner.jpeg" width="900" height="200"/ >
+ <img src="solution_architecture.png" width="500" height="200"/ >
+<p>
+
+## Pipelines
+
+All the code needed to create the External tables, procedures, pipelines, notebooks and pipelines are in the folders above.
+
+### Silver Layer
+<p>
+ <img src="pipeline_silver_layer.png" width="500" height="200"/ >
+<p>
+
+
+### Gold Layer
+
+<p>
+ <img src="pipeline_gold_layer.png" width="500" height="200"/ >
+<p>
+
+### Run all pipelines
+
+
+<p>
+ <img src="run_all_pipelines.png" width="500" height="200"/ >
 <p>
