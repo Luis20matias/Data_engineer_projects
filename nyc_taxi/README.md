@@ -1,11 +1,45 @@
 [![author](https://img.shields.io/badge/author-luismatias-red)](https://www.linkedin.com/in/lu%C3%ADs-fernando-matias-de-farias-52234b20a/) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Luis20matias) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo)
 
+## Azure Synapses Analytics Project - NYC Taxi Trips data
+
+Azure Synapse Analytics is a limitless analytics service that brings together
+data integration, enterprise data warehousing and big data analytics.
+
+## Requeriments 
+
+* Data Discovery
+  * Data exploration capability on the raw data
+  * Schema applied to the raw data
+  * Discovery using T-SQL
+  * Discovery using pay-per-query model (Serveless SQL Pool)
+
+* Data Ingestion 
+  * Ingested data to be stored as Parquet
+  * Ingested data to be stored as tables/ views
+  * Ability to query the ingested data using SQL
+  * Ingestion using pay-per-query model
+  
+* Data Transformation 
+  * Join the key information required for reporting to
+create a new table.
+  * Join the key information required for Analysis to
+create a new table.
+  * Must be able to analyze the transformed data
+via T-SQL
+  * Transformed data must be stored in columnar
+format (i.e., Parquet)
+
+* Reporting Requeriments
+  * Taxi Demand
+  * Credit Card Campaign
+  * Operational Reporting
+  * Scheduled to run at regular interval
+  * Ability to monitor pipelines
+  * Ability to re-run failed pipelines
+  * Ability to set-up alerts on failures
+
+## Solution Architecture – Serverless SQL Pool
+
 <p>
  <img src="data_banner.jpeg" width="900" height="200"/ >
 <p>
- 
-# :pushpin: Luís Fernando Matias de Farias
- 
-
-## :battery: Projects:
-### Below are the codes that I've made:
