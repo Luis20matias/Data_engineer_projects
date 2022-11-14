@@ -59,19 +59,19 @@ All the code needed to create the External tables, procedures, pipelines, notebo
 
 ### Silver Layer
 <p>
- <img src="pipeline_silver_layer.png" width="800" height="800"/ >
+ <img src="pipeline_silver_layer.png" width="500" height="500"/ >
 <p>
 
 
 ### Gold Layer
 
 <p>
- <img src="pipeline_gold_layer.png" width="800" height="800"/ >
+ <img src="pipeline_gold_layer.png" width="500" height="500"/ >
 <p>
 
 ### Run all pipelines
 
 
 <p>
- <img src="run_all_pipelines.png" width="800" height="800"/ >
+ <img src="run_all_pipelines.png" width="500" height="500"/ >
 <p>
