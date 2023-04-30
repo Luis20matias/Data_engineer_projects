@@ -8,4 +8,5 @@
 ## Below are the codes that I've made:
 
 * **:taxi: New York City Taxi - Azure Synapses:** https://bit.ly/3Xd131w
-* **:snowflake: Load Data with Snowpark - Python: ** https://bit.ly/3nhfSD0
+* **:snowflake: Load Data with Snowpark - Python:** https://bit.ly/3nhfSD0
+* **:snowflake: Customer Churn Data Analyses with Snowpark-Python:** https://bit.ly/3oX0g7X
