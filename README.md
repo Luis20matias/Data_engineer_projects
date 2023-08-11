@@ -7,6 +7,7 @@
 
 ## Below are the codes that I've made:
 
+* **:gift: Databricks Concepts:** https://shorturl.at/vyBIU
 * **:white_flower: Airflow Concepts - Project involving the main concepts for Airflow:** http://bitly.ws/KNVn
 * **:taxi: New York City Taxi - Azure Synapses:** https://bit.ly/3Xd131w
 * **:snowflake: :octocat: Load Data with Snowpark - Python:** https://bit.ly/3nhfSD0
