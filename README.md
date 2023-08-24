@@ -15,3 +15,4 @@
 * **:snowflake: :mag_right: Customer Churn Data Analyses with Snowpark-Python:** https://bit.ly/3oX0g7X
 * **:snowflake: :outbox_tray: Snowpark UDF Deployment:** https://bit.ly/3Ln2pS2
 * **:snowflake: :page_with_curl: Snowpark Procedures with Python:** https://bit.ly/3nhgeJQ
+* * **:snowflake: Snowflake Medallion Data Pipeline:** https://rb.gy/d5i3g
