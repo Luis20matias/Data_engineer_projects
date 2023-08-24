@@ -1,4 +1,4 @@
-# Covid project Data pipeline - Triade
+# Covid project Data pipeline
 
 - [Structure the project](https://docs.python-guide.org/writing/structure/) on Github.
 
