@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/owshq-academy/ws-stack-dados-k8s.git'
-    path: infra/src/helm-charts/airflow
+    repoURL: 'https://github.com/Luis20matias/Data_engineer_projects.git'
+    path: modern-data-stack-k8s-master/infra/src/helm-charts/airflow
     targetRevision: HEAD
     helm:
       valueFiles:

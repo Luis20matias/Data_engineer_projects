@@ -17,8 +17,8 @@ All the resources needed to create a Kubernetes cluster as well as the necessary
 for the data environment using GitOps.
 
 To deploy the environment, follow the steps:
-1) [Kubernetes](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/cce5c1e4ca78e19f58c114a4f6f5ee25c5b5332a/infra/terraform/kubernetes/aks/orion-development/readme.md)
-2) [GitOps](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/e6a934db161f71a691374bfd57192e7cad8d4a3b/infra/terraform/gitops/argocd/readme.md)
+1) [Kubernetes](https://github.com/Luis20matias/Data_engineer_projects/tree/main/modern-data-stack-k8s-master/infra/terraform/kubernetes/aks/modern-data-plataform-cluster/readme.md)
+2) [GitOps](https://github.com/Luis20matias/Data_engineer_projects/tree/main/modern-data-stack-k8s-master/infra/terraform/gitops/argocd/readme.md)
 3) [Deployment](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/e6a934db161f71a691374bfd57192e7cad8d4a3b/infra/src/readme.md)
 
 ### apps
@@ -26,16 +26,16 @@ Development of an application that creates json or parquet files to place in the
 of a data lake, in this case using MinIO (s3)
 
 For the application, follow the steps:
-1) [Data Gen DataStores](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/6c3b885f044d67ac60f6ee2d6e6fca5dcc5e0fa2/app/data-gen-datastores/readme.md)
+1) [Data Gen DataStores](https://github.com/Luis20matias/Data_engineer_projects/blob/main/modern-data-stack-k8s-master/app/data-gen-datastores/readme.md)
 
 ### data
 Creating a data pipeline using Apache Airflow, Trino & dbt-Core to create a data environment
 complete end to end.
 
 To build the data environment, follow the steps:
-1) [Trino](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/e6a934db161f71a691374bfd57192e7cad8d4a3b/data/sql)
-2) [dbt_Core](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/8abc244ebdaa999021a76777ac5362ba5956c40d/data/dags/dbt/owshq)
-3) [Apache Airflow](https://github.com/owshq-academy/ws-stack-dados-k8s/blob/8abc244ebdaa999021a76777ac5362ba5956c40d/data/dags/dbt_sql_transform.py)
+1) [Trino](https://github.com/Luis20matias/Data_engineer_projects/tree/main/modern-data-stack-k8s-master/data/sql)
+2) [dbt_Core](https://github.com/Luis20matias/Data_engineer_projects/tree/main/modern-data-stack-k8s-master/data/dags/dbt/owshq)
+3) [Apache Airflow](https://github.com/Luis20matias/Data_engineer_projects/blob/main/modern-data-stack-k8s-master/data/dags/dbt_sql_transform.py)
 
 ### links
 - [Kubernetes](https://kubernetes.io/docs/home/)
