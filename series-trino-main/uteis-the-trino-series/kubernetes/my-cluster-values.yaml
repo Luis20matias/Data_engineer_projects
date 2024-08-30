@@ -1,0 +1,21 @@
+additionalCatalogs:
+   mysql: |-
+    connector.name=mysql
+    connection-url=jdbc:mysql://database-2.c1psvo7v9byg.us-east-2.rds.amazonaws.com:3306
+    connection-user=admin
+    connection-password=tXfhqJvRFqhxk7I6
+   postgresql: |-
+    connector.name=postgresql
+    connection-url=jdbc:postgresql://database-1.c1psvo7v9byg.us-east-2.rds.amazonaws.com:5432/postgres
+    connection-user=postgres
+    connection-password=tXfhqJvRFqhxk7I6
+   s3datalake: |-
+    connector.name=hive
+    hive.metastore=glue
+    hive.metastore.glue.region=us-east-2
+    hive.metastore.glue.default-warehouse-dir=s3://sandbox-245487848824/
+    hive.s3.aws-access-key=AKIATSKBXJV4AEB22757
+    hive.s3.path-style-access=true
+    hive.s3.aws-secret-key=1kTI8R3EsOBEJhzNw3yUeDrV0IWHvoNe6
+    hive.metastore.glue.aws-access-key=AKIATSKBXJV4LBD2QRBU
+    hive.metastore.glue.aws-secret-key=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 

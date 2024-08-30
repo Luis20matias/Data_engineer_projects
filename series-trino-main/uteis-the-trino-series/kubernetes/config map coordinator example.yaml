@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: trino-config
+data:
+  coordinator.properties: |-
+    coordinator=true
+    node-scheduler.include-coordinator=true
+    query.max-memory=5GB
+    query.max-history=100
+    memory.heap-headroom-per-node=512MB
+    memory.heap-max-per-node=1GB
+    query.max-memory-per-node=1GB
+    query.max-total-memory-per-node=2GB
+    memory.reserved-pool-memory=1GB
+    

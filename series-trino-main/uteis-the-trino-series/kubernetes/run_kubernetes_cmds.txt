@@ -1,0 +1,31 @@
+Step to deployment on kubernetes
+
+
+
+666 / 5,000
+1 - Configuring namespace for logical separation of resources within the Kubernetes cluster:
+
+kubectl create namespace serving
+
+2 - Setting the created namespace:
+
+kubens serving
+
+3 - add Helm and install Trino Cluster:
+
+(uses standard chart files):
+
+helm install my-trino trino/trino --version 0.10.2
+
+
+(uses customized files when deploying or updating the cluster):
+
+helm upgrade --install\
+--values ​​my-cluster-values.yaml \
+my-trino\
+trino/trino \
+--version 0.10.2
+
+4 - Configure ingress to service internal IP (kubectl apply command)
+
+5 - Configure catalogs through a YAML file of parameters for the cluster (kubectl apply command)
