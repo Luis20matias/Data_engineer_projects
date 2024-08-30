@@ -30,9 +30,9 @@ if __name__ == '__main__':
 
     # set dynamic input file [hard-coded]
     # can be changed for input parameters [spark-submit]
-    get_users_file = "/Users/luanmorenomaciel/GitHub/trn-spec-spark/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_user_*.json"
-    get_business_file = "/Users/luanmorenomaciel/GitHub/trn-spec-spark/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_business_*.json"
-    get_reviews_file = "/Users/luanmorenomaciel/GitHub/trn-spec-spark/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_review_*.json"
+    get_users_file = "/home/luisfarias/repo_luis/Data_engineer_projects/trn-spec-spark-main/trn-spec-spark-main/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_user_*.json"
+    get_business_file = "/home/luisfarias/repo_luis/Data_engineer_projects/trn-spec-spark-main/trn-spec-spark-main/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_business_*.json"
+    get_reviews_file = "/home/luisfarias/repo_luis/Data_engineer_projects/trn-spec-spark-main/trn-spec-spark-main/day-1-foundation/pyspark-yelp-elt-py/files/yelp_academic_dataset_review_*.json"
 
     # read user data
     df_user = spark.read \

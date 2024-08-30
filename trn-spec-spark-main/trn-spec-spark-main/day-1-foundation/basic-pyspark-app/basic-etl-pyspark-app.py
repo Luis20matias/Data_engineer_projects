@@ -16,14 +16,14 @@ if __name__ == '__main__':
         .format("json") \
         .option("inferSchema", "true") \
         .option("header", "true") \
-        .json("/Users/luanmorenomaciel/GitHub/trn-spec-spark/files/landing-zone/user/*.json")
+        .json("/home/luisfarias/repo_luis/Data_engineer_projects/trn-spec-spark-main/trn-spec-spark-main/files/landing-zone/user/*.json")
     
     # dataframe = subscription
     df_subscription = spark.read \
         .format("json") \
         .option("inferSchema", "true") \
         .option("header", "true") \
-        .json("/Users/luanmorenomaciel/GitHub/trn-spec-spark/files/landing-zone/subscription/*.json")
+        .json("/home/luisfarias/repo_luis/Data_engineer_projects/trn-spec-spark-main/trn-spec-spark-main/files/landing-zone/subscription/*.json")
         
     # print
     df_user.printSchema()
