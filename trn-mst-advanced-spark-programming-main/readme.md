@@ -24,7 +24,7 @@ APP_METRICS_PATH=REPO_PATH/metrics
 
 ### build spark docker images [spark & history server]
 ```shell
-docker build -t owshq-spark:3.5 -f Dockerfile . 
+docker build -t owshq-spark:3.5 -f Dockerfile.spark . 
 docker build -t owshq-spark-history-server:3.5 -f Dockerfile.history .
 ```
 
