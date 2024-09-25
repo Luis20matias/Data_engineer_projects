@@ -40,6 +40,7 @@ docker logs spark-history-server
 ```
 
 ### download files & save on [storage] folder
+Add in the folder src/storage
 ```shell
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 https://www.yelp.com/dataset
