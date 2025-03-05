@@ -1,4 +1,4 @@
-# ARCHIVED
+# Generative AI Architeture
 
 ![GenAI archicteture](docs/ActivateGenAI.png)
 
