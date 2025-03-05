@@ -2,7 +2,7 @@
 
 ![GenAI archicteture](docs/ActivateGenAI.png)
 
-[Official documentation]([https://aka.ms/aihub](https://azure.github.io/activate-genai/))
+[Official documentation](https://azure.github.io/activate-genai/)
 
 All **Activate GenAI with Azure** features are now part of the **[Azure AIHub project](https://aka.ms/aihub)** 
 
