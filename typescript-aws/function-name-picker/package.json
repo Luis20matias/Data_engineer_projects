@@ -1,0 +1,7 @@
+{
+    "name": "function-name-picker",
+    "version": "1.0.0",
+    "description": "Lambda for picking names",
+    "main": "index.js",
+    "license": "MIT"
+}

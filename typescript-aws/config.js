@@ -1,0 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BACKEND_NAME = exports.PROJECT_NAME = void 0;
+exports.PROJECT_NAME = 'cdktf-name-picker';
+exports.BACKEND_NAME = `${exports.PROJECT_NAME}-prereq`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlnLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFhLFFBQUEsWUFBWSxHQUFHLG1CQUFtQixDQUFDO0FBQ25DLFFBQUEsWUFBWSxHQUFHLEdBQUcsb0JBQVksU0FBUyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IFBST0pFQ1RfTkFNRSA9ICdjZGt0Zi1uYW1lLXBpY2tlcic7XG5leHBvcnQgY29uc3QgQkFDS0VORF9OQU1FID0gYCR7UFJPSkVDVF9OQU1FfS1wcmVyZXFgOyJdfQ==

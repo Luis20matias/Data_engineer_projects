@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdktf_1 = require("cdktf");
+const NamePickerStack_1 = require("./stacks/NamePickerStack");
+//import { WeekPlannerStack } from './stacks/WeekPlannerStack';
+const app = new cdktf_1.App();
+new NamePickerStack_1.NamePickerStack(app, 'cdktf-name-picker');
+// Lab question 2
+// ToDo
+// Update the NamePickerStack class:
+//    - Make the stageName configurable by adding a parameter to the constructor that accepts 'dev' or 'prod' with a default value of 'dev'.
+//    - Update the code to use this parameter for the stageName of the LambdaRestApi.
+// Update the stack instantiation code:
+//    - Modify the existing code to create two instances of the NamePickerStack: one for 'dev' (using the default value) and one for 'prod'.
+//    - Ensure the new instance for 'prod' is correctly initialized with the appropriate stageName
+// Hint!
+// All changes necesasry are in this file and the NamePickerStack class
+//new NamePickerStack(app, 'cdktf-name-picker-prod');
+app.synth();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpQ0FBNEI7QUFDNUIsOERBQTJEO0FBQzNELCtEQUErRDtBQUUvRCxNQUFNLEdBQUcsR0FBRyxJQUFJLFdBQUcsRUFBRSxDQUFDO0FBQ3RCLElBQUksaUNBQWUsQ0FBQyxHQUFHLEVBQUUsbUJBQW1CLENBQUMsQ0FBQztBQUM5QyxpQkFBaUI7QUFDakIsT0FBTztBQUNQLG9DQUFvQztBQUNwQyw0SUFBNEk7QUFDNUkscUZBQXFGO0FBQ3JGLHVDQUF1QztBQUN2Qyw0SUFBNEk7QUFDNUksa0dBQWtHO0FBRWxHLFFBQVE7QUFDUix1RUFBdUU7QUFDdkUscURBQXFEO0FBQ3JELEdBQUcsQ0FBQyxLQUFLLEVBQUUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFwcCB9IGZyb20gJ2Nka3RmJztcbmltcG9ydCB7IE5hbWVQaWNrZXJTdGFjayB9IGZyb20gJy4vc3RhY2tzL05hbWVQaWNrZXJTdGFjayc7XG4vL2ltcG9ydCB7IFdlZWtQbGFubmVyU3RhY2sgfSBmcm9tICcuL3N0YWNrcy9XZWVrUGxhbm5lclN0YWNrJztcblxuY29uc3QgYXBwID0gbmV3IEFwcCgpO1xubmV3IE5hbWVQaWNrZXJTdGFjayhhcHAsICdjZGt0Zi1uYW1lLXBpY2tlcicpO1xuLy8gTGFiIHF1ZXN0aW9uIDJcbi8vIFRvRG9cbi8vIFVwZGF0ZSB0aGUgTmFtZVBpY2tlclN0YWNrIGNsYXNzOlxuLy8gICAgLSBNYWtlIHRoZSBzdGFnZU5hbWUgY29uZmlndXJhYmxlIGJ5IGFkZGluZyBhIHBhcmFtZXRlciB0byB0aGUgY29uc3RydWN0b3IgdGhhdCBhY2NlcHRzICdkZXYnIG9yICdwcm9kJyB3aXRoIGEgZGVmYXVsdCB2YWx1ZSBvZiAnZGV2Jy5cbi8vICAgIC0gVXBkYXRlIHRoZSBjb2RlIHRvIHVzZSB0aGlzIHBhcmFtZXRlciBmb3IgdGhlIHN0YWdlTmFtZSBvZiB0aGUgTGFtYmRhUmVzdEFwaS5cbi8vIFVwZGF0ZSB0aGUgc3RhY2sgaW5zdGFudGlhdGlvbiBjb2RlOlxuLy8gICAgLSBNb2RpZnkgdGhlIGV4aXN0aW5nIGNvZGUgdG8gY3JlYXRlIHR3byBpbnN0YW5jZXMgb2YgdGhlIE5hbWVQaWNrZXJTdGFjazogb25lIGZvciAnZGV2JyAodXNpbmcgdGhlIGRlZmF1bHQgdmFsdWUpIGFuZCBvbmUgZm9yICdwcm9kJy5cbi8vICAgIC0gRW5zdXJlIHRoZSBuZXcgaW5zdGFuY2UgZm9yICdwcm9kJyBpcyBjb3JyZWN0bHkgaW5pdGlhbGl6ZWQgd2l0aCB0aGUgYXBwcm9wcmlhdGUgc3RhZ2VOYW1lXG5cbi8vIEhpbnQhXG4vLyBBbGwgY2hhbmdlcyBuZWNlc2FzcnkgYXJlIGluIHRoaXMgZmlsZSBhbmQgdGhlIE5hbWVQaWNrZXJTdGFjayBjbGFzc1xuLy9uZXcgTmFtZVBpY2tlclN0YWNrKGFwcCwgJ2Nka3RmLW5hbWUtcGlja2VyLXByb2QnKTtcbmFwcC5zeW50aCgpO1xuIl19

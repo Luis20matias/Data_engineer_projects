@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdktf_1 = require("cdktf");
+const PreRequeStack_1 = require("./stacks/PreRequeStack");
+const config_1 = require("./config");
+const app = new cdktf_1.App();
+new PreRequeStack_1.PreReqStack(app, config_1.BACKEND_NAME, {
+    backendName: config_1.BACKEND_NAME
+});
+app.synth();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHJlcmVxLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsicHJlcmVxLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsaUNBQTRCO0FBQzVCLDBEQUFxRDtBQUNyRCxxQ0FBd0M7QUFHeEMsTUFBTSxHQUFHLEdBQUcsSUFBSSxXQUFHLEVBQUUsQ0FBQztBQUV0QixJQUFJLDJCQUFXLENBQUMsR0FBRyxFQUFFLHFCQUFZLEVBQUU7SUFDL0IsV0FBVyxFQUFFLHFCQUFZO0NBQzVCLENBQUMsQ0FBQztBQUVILEdBQUcsQ0FBQyxLQUFLLEVBQUUsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFwcCB9IGZyb20gJ2Nka3RmJztcbmltcG9ydCB7IFByZVJlcVN0YWNrIH0gZnJvbSAnLi9zdGFja3MvUHJlUmVxdWVTdGFjayc7XG5pbXBvcnQgeyBCQUNLRU5EX05BTUUgfSBmcm9tICcuL2NvbmZpZyc7XG5cblxuY29uc3QgYXBwID0gbmV3IEFwcCgpO1xuXG5uZXcgUHJlUmVxU3RhY2soYXBwLCBCQUNLRU5EX05BTUUsIHtcbiAgICBiYWNrZW5kTmFtZTogQkFDS0VORF9OQU1FXG59KTtcblxuYXBwLnN5bnRoKCk7Il19

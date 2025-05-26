@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getConstructName = void 0;
+const cdktf_1 = require("cdktf");
+const getConstructName = (scope, id) => `${cdktf_1.TerraformStack.of(scope)}-${id}`.toLowerCase();
+exports.getConstructName = getConstructName;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXRpbHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJ1dGlscy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxpQ0FBdUM7QUFHaEMsTUFBTSxnQkFBZ0IsR0FBRyxDQUFDLEtBQWdCLEVBQUUsRUFBVSxFQUFFLEVBQUUsQ0FBQyxHQUFHLHNCQUFjLENBQUMsRUFBRSxDQUFDLEtBQUssQ0FBQyxJQUFJLEVBQUUsRUFBRSxDQUFDLFdBQVcsRUFBRSxDQUFDO0FBQXZHLFFBQUEsZ0JBQWdCLG9CQUF1RiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFRlcnJhZm9ybVN0YWNrIH0gZnJvbSAnY2RrdGYnO1xuaW1wb3J0IHsgQ29uc3RydWN0IH0gZnJvbSAnY29uc3RydWN0cyc7XG5cbmV4cG9ydCBjb25zdCBnZXRDb25zdHJ1Y3ROYW1lID0gKHNjb3BlOiBDb25zdHJ1Y3QsIGlkOiBzdHJpbmcpID0+IGAke1RlcnJhZm9ybVN0YWNrLm9mKHNjb3BlKX0tJHtpZH1gLnRvTG93ZXJDYXNlKCk7XG4iXX0=
