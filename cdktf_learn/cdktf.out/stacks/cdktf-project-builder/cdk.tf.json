@@ -1,0 +1,82 @@
+{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "cdktf-project-builder",
+      "version": "0.20.12"
+    },
+    "outputs": {
+      "cdktf-project-builder": {
+        "readMeContent": "readMeContent"
+      }
+    }
+  },
+  "output": {
+    "readMeContent": {
+      "value": "${local_file.project-folder-2_readme-file_9A883536.content}"
+    }
+  },
+  "provider": {
+    "local": [
+      {
+      }
+    ]
+  },
+  "resource": {
+    "local_file": {
+      "project-folder-2_package-json-file_25ACE09E": {
+        "//": {
+          "metadata": {
+            "path": "cdktf-project-builder/project-folder-2/package-json-file",
+            "uniqueId": "project-folder-2_package-json-file_25ACE09E"
+          }
+        },
+        "content": "{\n  \"name\": \"project-2\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node index.js\"\n  }\n}",
+        "filename": "/home/luisfarias/cdktf_learn/authors-projects/project-2/package.json"
+      },
+      "project-folder-2_readme-file_9A883536": {
+        "//": {
+          "metadata": {
+            "path": "cdktf-project-builder/project-folder-2/readme-file",
+            "uniqueId": "project-folder-2_readme-file_9A883536"
+          }
+        },
+        "content": "# project-2\n\nThis is the project-2 project.",
+        "filename": "/home/luisfarias/cdktf_learn/authors-projects/project-2/README.md"
+      },
+      "project-folder_package-json-file_EE1CE332": {
+        "//": {
+          "metadata": {
+            "path": "cdktf-project-builder/project-folder/package-json-file",
+            "uniqueId": "project-folder_package-json-file_EE1CE332"
+          }
+        },
+        "content": "{\n  \"name\": \"project-1\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node index.js\"\n  }\n}",
+        "filename": "/home/luisfarias/cdktf_learn/authors-projects/project-1/package.json"
+      },
+      "project-folder_readme-file_685F727F": {
+        "//": {
+          "metadata": {
+            "path": "cdktf-project-builder/project-folder/readme-file",
+            "uniqueId": "project-folder_readme-file_685F727F"
+          }
+        },
+        "content": "# project-1\n\nThis is the project-1 project.",
+        "filename": "/home/luisfarias/cdktf_learn/authors-projects/project-1/README.md"
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "/home/luisfarias/cdktf_learn/terraform.cdktf-project-builder.tfstate"
+      }
+    },
+    "required_providers": {
+      "local": {
+        "source": "hashicorp/local",
+        "version": "2.5.2"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "stacks": {
+    "cdktf-project-builder": {
+      "annotations": [
+      ],
+      "constructPath": "cdktf-project-builder",
+      "dependencies": [
+      ],
+      "name": "cdktf-project-builder",
+      "stackMetadataPath": "stacks/cdktf-project-builder/metadata.json",
+      "synthesizedStackPath": "stacks/cdktf-project-builder/cdk.tf.json",
+      "workingDirectory": "stacks/cdktf-project-builder"
+    }
+  },
+  "version": "0.20.12"
+}
